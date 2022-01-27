@@ -1,0 +1,36 @@
+# ###
+# PUT {{baseUrl}}v2/equity-investment/192
+# Content-Type: application/json
+# Accept: application/json
+# Authorization:Bearer {{token}}
+
+# {
+#     "financial_amount": 1000,
+#     "disbursement_date": "2021-07-30",
+#     "use_of_fund": "Typing Here",
+#     "company_name": "FS Company",
+#     "full_address": "No. 20B, St. 612z, Sangkat Boeung Kak 1, Khan Toul Kork, Phnom Penh.",
+#     "year_of_establishment": 2020,
+#     "type_of_organization": 156,
+#     "industry": 125,
+#     "tax_identification_number": "000286438",
+#     "number_of_staff": 100,
+#     "owner_name": "Unknown",
+#     "product_or_service": "ISP Provider",
+#     "number_of_shareholders": 2000,
+#     "number_of_board_members": 100,
+#     "is_company_raise_fund": 1, // boolean
+#     "raise_fund_use_for": "Business Injection",
+#     "financial_project": 1, // boolean
+#     "is_majority_shareholder": 1, // boolean
+#     "company_patent_doc":[],
+#     "company_licence_doc": [],
+#     "company_MoC_certificate":[],
+#     "business_plan" :[],
+#     "article_of_incorporation" :[],
+#     "income_statement" :[],
+#     "balance_sheet" :[],
+#     "cash_flow_statement":[],
+#     "market_study_docs[]" :[],
+#     "other_document":[]
+# }
